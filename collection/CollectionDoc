@@ -1,0 +1,25 @@
+ * @param <E> the type of elements in this collection
+ *
+ * @see     Set
+ * @see     List
+ * @see     Map
+ * @see     SortedSet
+ * @see     SortedMap
+ * @see     HashSet
+ * @see     TreeSet
+ * @see     ArrayList
+ * @see     LinkedList
+ * @see     Vector
+ * @see     Collections
+ * @see     Arrays
+ * @see     AbstractCollection
+ * @since 1.2
+
+  
+  public boolean addAll(Collection<? extends E> c) {
+        boolean modified = false;
+        for (E e : c)
+            if (add(e))
+                modified = true;
+        return modified;
+    }
