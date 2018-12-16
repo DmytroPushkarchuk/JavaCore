@@ -7,7 +7,7 @@ public class Main {
 		Group[] university = new Group[] {new Group1(), new Group2(), new Group3()};  
 		
 		for (Group iter : university) {
-			iter.getGroup();
+			iter.getGroup() ;
 		}
 		
 	}
