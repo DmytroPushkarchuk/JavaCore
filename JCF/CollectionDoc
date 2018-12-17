@@ -16,10 +16,4 @@
  * @since 1.2
 
   
-  public boolean addAll(Collection<? extends E> c) {
-        boolean modified = false;
-        for (E e : c)
-            if (add(e))
-                modified = true;
-        return modified;
-    }
+  http://www.ntu.edu.sg/home/ehchua/programming/java/j5c_collection.html
