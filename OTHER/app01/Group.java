@@ -1,13 +1,11 @@
-package app1;
+package app01;
 
-public class Group3 extends Group{
+public abstract class Group {
 	
 	private String nameGroup = "Abstract Group";
-
-	@Override
+	
 	public void getGroup() {
 		System.out.println(nameGroup);
-		
 	}
 
 }

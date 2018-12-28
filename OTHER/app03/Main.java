@@ -1,4 +1,4 @@
-package app3;
+package app03;
 
 import java.util.Objects;
 import java.util.Scanner;

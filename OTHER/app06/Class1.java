@@ -1,4 +1,4 @@
-package app6;
+package app06;
 /** Class1 
  * мур 
  * <code>Begin</code>

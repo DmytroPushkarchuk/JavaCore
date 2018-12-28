@@ -1,4 +1,4 @@
-package app2;
+package app02;
 
 public abstract class Figure {
 	

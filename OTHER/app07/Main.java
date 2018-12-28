@@ -1,4 +1,4 @@
-package app7;
+package app07;
 
 import java.util.Random;
 
