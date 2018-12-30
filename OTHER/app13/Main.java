@@ -5,7 +5,6 @@ public class Main {
 	public static void main(String[] args) {
 
 		new Class1(10, 20);
-
 	}
 
 }
@@ -33,7 +32,7 @@ class Class1 {
 		System.out.println(this.x + " " + this.y);
 		System.out.println(f);
 	}
- 
+
 	public Class1() {
 		System.out.println("конструктор без переметрів");
 	}
@@ -45,7 +44,6 @@ class Class1 {
 		this.x = x;
 		this.y = y;
 		System.out.println(this.x + " " + this.y);
-
 	}
 
 }
