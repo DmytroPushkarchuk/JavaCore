@@ -1,13 +1,12 @@
 package app15;
 
-@SuppressWarnings("all")
 public class Main {
 
 	public static void main(String[] args) {
 
 		Integer[] arr = new Integer[] { 10, 20, 30, 40 };
 
-		print(arr);
+		print((Object[]) arr);
 
 		System.out.println();
 		print(1, 2, "c", 4, 5);

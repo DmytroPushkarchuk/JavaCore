@@ -5,6 +5,8 @@ import java.util.ArrayList;
 @SuppressWarnings("serial")
 public class Main extends ArrayList<Integer> {
 
+	
+	
 	public static void main(String[] args) {
 
 		Main arrlist = new Main();
