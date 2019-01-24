@@ -9,10 +9,10 @@ public class Main {
 		print((Object[]) arr);
 
 		System.out.println();
-		print(1, 2, "c", 4, 5);
+		print(new A(0), 1, 2, "c", 4, 5);
 
 		System.out.println();
-		print(new A(1), new A(2), new A(3), new B(), new B(), new B());
+		print(new A(1), new A(2), new A(3), new B(), new B(), new B(), 2);
 
 	}
 

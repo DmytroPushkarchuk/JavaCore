@@ -13,7 +13,7 @@ public class Main {
 }
 
 class Class1 {
-	int i = 0;
+	private int i = 0;
 
 	public Class1 leaf() {
 		i++;

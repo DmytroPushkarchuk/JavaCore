@@ -14,7 +14,6 @@ public class Class1 {
 	}
 
 	public Class1(int i) {
-		super();
 		this.i = i;
 	}
 

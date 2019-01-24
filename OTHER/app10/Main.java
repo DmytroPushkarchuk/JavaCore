@@ -8,6 +8,7 @@ public class Main {
 
 		Class1 class1 = new Class1(Integer.MAX_VALUE);
 		Class1 class2 = new Class1();
+		class1.class1(3);
 
 	}
 

@@ -4,7 +4,7 @@ package app12;
 public class Main {
 
 	public static void main(String[] args) {
-		Book book = new Book(1);
+		new Book(1);
 		new Book(2);
 		new Book(3);
 		new Book(4);
