@@ -14,7 +14,7 @@ public class Main {
 		}
 
 		for (int i = 0; i < arr1.length; i++) {
-			arr1[i] = i;
+			arr2[i] = i;
 		}
 
 		System.out.println(Arrays.toString(arr1));

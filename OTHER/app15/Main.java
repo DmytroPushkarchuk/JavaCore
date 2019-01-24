@@ -41,8 +41,8 @@ class A {
 
 class B {
 
-	static int b;
-	int b1;
+	private static int b;
+	private int b1;
 
 	public B() {
 		b1 = ++b;
