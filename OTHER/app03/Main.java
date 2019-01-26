@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String... args) {
 
 		Computer[] computers = new Computer[] { new Computer("Sony Vaio"), new Computer("MacBook Pro"),
 				new Computer("MacBook Air") };
