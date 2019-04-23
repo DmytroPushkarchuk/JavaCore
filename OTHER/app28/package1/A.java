@@ -1,6 +1,6 @@
-package app28.package2;
+package app28.package1;
 
-import app28.package3.B;
+import app28.package2.B;
 
 public class A extends B{
 

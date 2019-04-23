@@ -1,4 +1,4 @@
-package app28.package3;
+package app28.package2;
 
 public class B {
 	

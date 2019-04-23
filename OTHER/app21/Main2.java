@@ -4,7 +4,7 @@ public class Main2 extends Main {
 
 	@Override
 	public void scrub() {
-		appEnd(" Detergent.scrub()");
+		appEnd("\nDetergent.scrub()");
 		super.scrub();
 	}
 

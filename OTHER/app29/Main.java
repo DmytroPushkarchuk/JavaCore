@@ -23,10 +23,14 @@ public class Main {
 	public static void main(String[] args) {
 
 		A a = new A();
-		a.a2().a2().a2().a2();
+		a.a2().a2().a2().a2().a2();
+
 		System.out.println(a);
+
 		A.i = 0;
+
 		a.a2().a2().a2().a2();
+
 		System.out.println(a);
 
 	}

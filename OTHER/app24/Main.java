@@ -26,7 +26,12 @@ public class Main {
 	public static void main(String[] args) {
 
 		Main class1 = new Main("Name");
+		
+		System.out.println(class1);
+		
 		System.out.println(new Main("x"));
+		System.out.println(class1);
+		
 		class1.a(1);
 		class1.b(2);
 

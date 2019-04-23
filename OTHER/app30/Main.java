@@ -5,7 +5,6 @@ class A {
 		System.out.println("static");
 	}
 
-
 	void x(A a) {
 		System.out.println("A.x(A a)");
 	}
@@ -14,11 +13,13 @@ class A {
 public class Main extends A {
 
 	public static void main(String[] args) {
+
 		Main e = new Main();
+
 		A a = new A();
 		a.x(e);
 		e.x(e);
-		
+
 		A.z(e);
 		Main.z(e);
 	}

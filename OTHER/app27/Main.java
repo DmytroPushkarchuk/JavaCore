@@ -2,12 +2,12 @@ package app27;
 
 class A {
 	char app(char c) {
-		System.out.println("char ch(char c)");
+		System.out.println("char ch " + c);
 		return c;
 	}
 
 	float app(float c) {
-		System.out.println("float f(float c)");
+		System.out.println("float f " + c);
 		return c;
 	}
 
@@ -15,12 +15,18 @@ class A {
 
 class B {
 
+	@Override
+	public String toString() {
+		return "B []";
+	}
+
 }
 
 class C extends A {
 	void app(B b) {
-		System.out.println("app(B b)");
+		System.out.println("app " + b);
 	}
+
 }
 
 public class Main {

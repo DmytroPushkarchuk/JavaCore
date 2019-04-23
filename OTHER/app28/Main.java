@@ -1,11 +1,13 @@
 package app28;
 
-import app28.package2.A;
+import app28.package1.A;
 
 public class Main extends A {
 
 	public static void main(String[] args) {
+		
 		Main a = new Main();
+		
 		A a1 = new A();
 		
 		a.p0();
