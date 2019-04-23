@@ -5,6 +5,7 @@ class A {
 		System.out.println("static");
 	}
 
+
 	void x(A a) {
 		System.out.println("A.x(A a)");
 	}
