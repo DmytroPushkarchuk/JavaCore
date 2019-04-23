@@ -1,6 +1,6 @@
-package app31;
+package app33;
 
-public class app31 {
+public class Main {
 
 	public static void main(String[] args) {
 
