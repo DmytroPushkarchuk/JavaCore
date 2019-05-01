@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="h2_embedded-16a6df54e64-74d2cef7cfa538fe" provider="generic" driver="h2_embedded" name="H2 - test" save-password="true" read-only="false">
+		<connection server="" database="~/test" url="jdbc:h2:~/test" user="sa" type="dev">
+			<bootstrap txnIsolation="2"/>
+		</connection>
+	</data-source>
+	<data-source id="h2_embedded-16a6e31156c-674079a2783f8b6c" provider="generic" driver="h2_embedded" name="H2 - test 2" save-password="true" read-only="false">
+		<connection server="" database="~/test" url="jdbc:h2:~/test" user="sa" type="dev">
+			<bootstrap autocommit="false"/>
+		</connection>
+	</data-source>
+	<data-source id="h2_embedded-16a6e3315e9-641a60e7a1c048d5" provider="generic" driver="h2_embedded" name="H2 - test 3" save-password="true" read-only="false">
+		<connection server="" database="~/test" url="jdbc:h2:~/test" user="sa" type="dev"/>
+	</data-source>
+	<data-source id="h2_embedded-16a6e346a71-4a3fc33158407e34" provider="generic" driver="h2_embedded" name="H2 - test 4" save-password="true" read-only="false">
+		<connection server="" database="~/test" url="jdbc:h2:~/test" user="sa" type="dev"/>
+	</data-source>
+	<data-source id="h2_embedded-16a6e4cc14c-6fe5feb8e0e3c530" provider="generic" driver="h2_embedded" name="H2 - test 5" save-password="true" read-only="false">
+		<connection server="" database="~/test" url="jdbc:h2:~/test" user="sa" type="dev"/>
+	</data-source>
+	<filters/>
+</data-sources>
